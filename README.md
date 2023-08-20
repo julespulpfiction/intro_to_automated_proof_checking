@@ -2,7 +2,7 @@
 
 ## August 2023 semester project by Sumant Chopde
 
-This repository contains my code written for the project. It contains my solutions to the exercises in the book [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/).
+This repository contains my code written for the project. It contains my solutions to the exercises in the book [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/) (i.e. proofs and examples left incomplete using the keyword `sorry`)
 
 Useful links:
 
