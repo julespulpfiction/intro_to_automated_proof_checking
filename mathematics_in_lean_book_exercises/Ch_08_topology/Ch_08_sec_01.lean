@@ -17,14 +17,14 @@ def principal {α : Type _} (s : Set α) : Filter α
 example : Filter ℕ :=
   { sets := { s | ∃ a, ∀ b, a ≤ b → b ∈ s }
     univ_sets := by
-      use 
+      use
       simp
 
     sets_of_superset := by
       rintro U V ⟨N, hN⟩ hUV
       use N
       tauto
-      
+
     inter_sets := by
       rintro U V ⟨N, hN⟩ ⟨N', hN'⟩
       use max N N'
@@ -44,6 +44,7 @@ example {X Y Z : Type _} {F : Filter X} {G : Filter Y} {H : Filter Z} {f : X →
 
 example {X Y Z : Type _} {F : Filter X} {G : Filter Y} {H : Filter Z} {f : X → Y} {g : Y → Z}
     (hf : Tendsto₁ f F G) (hg : Tendsto₁ g G H) : Tendsto₁ (g ∘ f) F H := by
+  -- Composition of limits
   intro V hV
   rw [preimage_comp]
   apply hf
