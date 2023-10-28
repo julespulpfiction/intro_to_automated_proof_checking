@@ -1,6 +1,6 @@
 # Intro to Automated Proof Checking using LEAN4
 
-## August 2023 semester project by Sumant Chopde
+## August 2023 semester project
 
 This repository contains my code written for the project. It contains my solutions to the exercises in the book [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/) (i.e. proofs and examples left incomplete using the keyword `sorry`)
 
