@@ -33,5 +33,6 @@ example {u : ℕ → X} (hu : Tendsto u atTop (𝓝 a)) {s : Set X} (hs : ∀ n,
 
 example {X : Type _} [MetricSpace X] [CompactSpace X]
       {Y : Type _} [MetricSpace Y] {f : X → Y}
-    (hf : Continuous f) : UniformContinuous f :=
-  sorry
+    (hf : Continuous f) : UniformContinuous f := by
+  -- Given f : X → Y, we want to show f is uniformly continuous.
+  
